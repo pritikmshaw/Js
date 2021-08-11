@@ -1,1 +1,1 @@
-Top 5 haunted place in kolkata 
+simple contact us page 
