@@ -1,0 +1,15 @@
+body{
+    
+    align-content: center;
+    border:0.5rem solid black;
+
+}
+.heading{
+    text-align: left;
+    /* font-size: 4rem; */
+}
+.login{
+    text-align: center;
+    size: 5rem;
+    color: black;
+}
