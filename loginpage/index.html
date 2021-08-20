@@ -10,29 +10,25 @@
   <body>
     <div class="mainblock">
       <h1 class="heading">Login to account</h1>
-      <h5 class="subheading">Don't have an account? <a href="#">Sign up</a></h5>
+      <h5 class="subheading">Don't have an account?<span class="signup"> <a href="#">Sign up</a></span></h5>
       <form action="" method="">
         <div class="emailinfo">
-          <label for="email" aria-required="true">Email*</label>
+          <label for="email" aria-required="true" class="email">Email*</label>
           <br />
-          <input
-            type="email"
-            name="email"
-            id=""
-            placeholder="email"
-            value="emailname@domainexample.com"
-          />
+          <input type="email" name="email" placeholder="emailname@domainexample.com" required/>
         </div>
         <br />
         <div class="passwordinfo">
           <label for="password" aria-required="true">Password*</label>
           <br />
-          <input type="password" name="" id="" />
+          <input type="password" name="" id="" required />
         </div>
         <br />
       </form>
       <br />
-      <a href="#">Forgot your Password</a>
+      <div class="forget_password">     
+          <a href="#">Forgot your Password</a>
+      </div>
       <br />
       <br />
       <div class="button">

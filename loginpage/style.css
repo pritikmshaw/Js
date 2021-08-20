@@ -1,34 +1,57 @@
-body{
-    padding: 0;
-    margin: 0;
-    align-content: center;
-} 
-@media(max-width:600px){
-    
+body {
+    padding: 5px;
+    margin-left: 40%;
+    float: left;
 }
-/* .mainblock{
-    
-    position: absolute;  
-} */
-.heading{
-    text-align: center;
+@media (max-width: 600px) {
+    body {
+    align-items: center;
+    }
 }
-.subheading{
+.heading {
+    /* text-align: center; */
+  }
+  .subheading {
+    /* text-align: center; */
     color: gray;
+    padding-right: 10%;
+    font-size: 15px;
+  }
+  .signup {
+    text-decoration: none;
+    color: cornflowerblue;
+  }
+  .emailinfo {
+    /* text-align: center; */
+    line-height: 1.5rem;
+  }
+  
+  .email {
+    padding: 0%;
     text-align: left;
-}
-.emailinfo{
+  }
+  input[type="email"] {
+    width: 250px;
+    height: 20px;
+  }
+  .passwordinfo {
     text-align: left;
     line-height: 1.5rem;
-}
-.passwordinfo{
-    text-align: left;
-    line-height: 1.5rem;
-}
-.button{
+  }
+  input[type="password"] {
+    width: 250px;
+    height: 20px;
+  }
+  .forget_password a {
+    text-decoration: none;
+    color: cornflowerblue;
+  }
+  .button button {
+    padding: 0%;
     text-align: center;
-    size: 5rem;
-    
-    color: blue;
-    
-}
+    width: 258px;
+    height: 30px;
+    color: white;
+    background-color: blue;
+  }
+  
