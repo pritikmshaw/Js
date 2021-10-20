@@ -17,11 +17,13 @@ let songs = [
      {songName: "song 10" , filePath: "song/10.mp3" , coverPath: "cover/10.jpg"},
 ]
 
-    audioElement.play();
+    
 // handle play puse
 masterPlay.addEventListener('click',() => {
     if(audioElement.paused || audioElement.currentTime<=0) {
         audioElement.play();
+        masterPlay.classList.remove('fa-play-circle');
+        masterPlay.classList.add('fa-pause-circle');
     }
 })
     //listen to event 
