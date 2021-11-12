@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+    a:link a:visited{
+        text-decoration: none;
+        border-radius: 5px;
+        color: white;
+        background-color:grey;
+        font-weight: bold;
+        width: 30px;
+        height: 30px;
+        border:1px solid black;
+        margin-top: 5px;
+        
+    }
+    ul li{
+        list-style: none;
+        margin-top: 5px;
+    }
+    a:hover {
+        color: green;
+    }
+    </style>
+</head>
+<body>
+    <h1>Pseudo Selectors</h1>
+
+    <p>
+        THERE r many pseudo selectors but here we will discouss about 5 main pseudo selectors
+        they are :
+        <ul>
+            <li ><a href="#link"> :link</a></li> 
+            <li ><a href="#hover"> :hover</a></li> 
+            <li ><a href="#visited"> :visited</a></li> 
+            <li ><a href="#active"> :active</a></li> 
+            <li ><a href="#nthchild"> :nth-child()</a></li>  
+        </ul>
+    </p>
+    <div id="link">
+        <h2>link</h2>
+        <p>link is basically used for the linking purpose n all</p>
+    </div>
+    <div id="hover">
+            <h2> hover </h2>
+            <p>
+                this is the hover selector is used when we want to change the cursor when we hover or something like that
+            </p>
+    </div>
+<div id="visited">
+    <h3>visited</h3>
+    <p>
+        when we want to change somthing which is already visited we use this 
+    </p>
+</div>
+<div id="active">
+    <h3>active</h3>
+    <p>
+        when we click on something but havent realeased it yet then this type on selectors are used
+    </p>
+</div>
+<div id="nthchild">
+    <h3>
+        nth-child(...)
+    </h3>
+    <p>
+        nth child is used to target the nth class of a particular div or anything like that n that ... in the brackets is where is write the target number which we want to have the changes
+    </p>
+</div>
+</body>
+</html>
