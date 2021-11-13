@@ -1,18 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+    <script>
+      function myfunction() {
+        document.getElementById("headfunction").innerHTML = "para changed";
+      }
+    </script>
+  </head>
+  <body>
     <h1>JavaScript Where To</h1>
     <h4>The &lt; script &gt; Tag</h4>
-    <p>In HTML, JavaScript code is inserted between &lt; script &gt; and &lt;/script &gt; tags.</p>
-<p id="firstjs"></p>
+    <p>
+      In HTML, JavaScript code is inserted between &lt; script &gt; and
+      &lt;/script &gt; tags.
+    </p>
+    <p id="firstjs"></p>
     <script>
-        document.getElementById('firstjs').innerHTML = "My first javascript";
+      document.getElementById("firstjs").innerHTML = "My first javascript";
     </script>
-</body>
+    <p id="headfunction">i am the para for head function</p>
+    <button type="button" onclick="myfunction()">
+      click to change the para in head
+    </button>
+    <script>
+      function outheadfunction() {
+        document.getElementById("outheadfunction").innerHTML =
+          "para of out head script function";
+      }
+    </script>
+    <p id="outheadfunction">ill change</p>
+    <button onclick="outheadfunction()">click to see change</button>
+
+<script src="functions.js"></script>
+<p id="externalfunction">see the change in me i am connected with external js file for function</p>
+<button onclick="externalfunction()">try me </button>
+
+
+  </body>
 </html>

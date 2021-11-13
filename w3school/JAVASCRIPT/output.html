@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>inner html function</h1>
+    <p>My First Paragraph</p>
+    <p id="innerhtml"></p>
+    <script>
+      document.getElementById("innerhtml").innerHTML = 5 + 6;
+    </script>
+
+    <h2>document.write function</h2>
+    <p>My first paragraph.</p>
+    <p>
+      Never call document.write after the document has finished loading. It will
+      overwrite the whole document. Using document.write() after an HTML
+      document is loaded, will delete all existing HTML: The document.write()
+      method should only be used for testing.
+    </p>
+    <script>
+      document.write(5 + 6);
+    </script>
+
+    <h2>for demonstration of the document . write</h2>
+    <p>
+      as said before as well it will delete all the html and rewite the entire
+      page see it urself by clicking the button
+    </p>
+    <button type="button" onclick="document.write(5 + 6)">Try it</button>
+    <h2>Using window.alert()</h2>
+    <p>
+      it will give a alret msg pop up . you can also skip the window keyword if
+      you want to
+    </p>
+    <script>
+      window.alert("i am the alert msg");
+      alert("skipped window keyword");
+    </script>
+
+    <h2>Activate Debugging</h2>
+    <p>F12 on your keybord will activate debugging.</p>
+    <p>Then select "Console" in the debugger menu.</p>
+    <p>Then click Run again.</p>
+    <p>this is show the output in the console</p>
+    <script>
+      console.log(5 + 6);
+    </script>
+
+<h2>The window.print() Method</h2>
+<p>Click the button to print the current page.</p>
+<button onclick="window.print()">print</button>
+  </body>
+</html>
