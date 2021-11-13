@@ -1,14 +1,73 @@
 <!DOCTYPE html>
-<html>
-<body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>My first javascript code</h2>
+    <button
+      type="submit"
+      onclick="document.getElementById('demo').innerHTML = Date()"
+    >
+      Click me to see time
+    </button>
+    <p id="demo"></p>
 
-<h2>My First JavaScript</h2>
+    <h2>JavaScript Can Change HTML Content</h2>
+    <p id="changecontent">JavaScript can change HTML content.</p>
+    <button
+      type="submit"
+      onclick='document.getElementById("changecontent").innerHTML = "Hello JavaScript" '
+    >
+      CLick Me!
+    </button>
 
-<button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()">
-Click me to display Date and Time.</button>
+    <h2>What Can JavaScript Do?</h2>
+    <p>JavaScript can change HTML attribute values</p>
 
-<p id="demo"></p>
+    <p>
+      In this case JavaScript changes the value of the src (source) attribute of
+      an image.
+    </p>
+    <button
+      type="submit"
+      onclick="document.getElementById('myimage').src='./w3school/JAVASCRIPT/ONbulb.jpg'"
+    >
+      TURN ON
+    </button>
+    <img id="myimage" src="./w3school/JAVASCRIPT/OFFbulb.jpg" alt="" />
+    <button
+      type="submit"
+      onclick="document.getElementById('myimage').src='./w3school/JAVASCRIPT/OFFbulb.jpg'"
+    >
+      TURN OFF
+    </button>
 
-</body>
-</html> 
+    <h2>What Can JavaScript Do?</h2>
+
+    <p id="changefontsize">
+      JavaScript can change the style of an HTML element.
+    </p>
+
+    <button
+      type="submit"
+      onclick="document.getElementById('changefontsize').style.fontSize='35px'"
+    >
+      Click me!
+    </button>
+
+    <h2>JavaScript Can Hide HTML Elements</h2>
+    <p id="hide">
+      Hiding HTML elements can be done by changing the display style:
+    </p>
+    <button onclick="document.getElementById('hide').style.display='none'">
+      Hide text
+    </button>
+    <button onclick="document.getElementById('hide').style.display='block'">
+      Show text
+    </button>
+  </body>
+</html>
