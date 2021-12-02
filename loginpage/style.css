@@ -1,57 +1,67 @@
 body {
-    padding: 5px;
-    margin-left: 40%;
-    float: left;
+  padding: 15px;
+  margin-left: 40%;
+  margin-top: 5%;
+  float: left;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  
 }
 @media (max-width: 600px) {
-    body {
+  body {
+    margin: 5px;
     align-items: center;
-    }
+  }
+}
+.mainblock {
+  margin: 15px;
+  
+
 }
 .heading {
-    /* text-align: center; */
-  }
-  .subheading {
-    /* text-align: center; */
-    color: gray;
-    padding-right: 10%;
-    font-size: 15px;
-  }
-  .signup {
-    text-decoration: none;
-    color: cornflowerblue;
-  }
-  .emailinfo {
-    /* text-align: center; */
-    line-height: 1.5rem;
-  }
-  
-  .email {
-    padding: 0%;
-    text-align: left;
-  }
-  input[type="email"] {
-    width: 250px;
-    height: 20px;
-  }
-  .passwordinfo {
-    text-align: left;
-    line-height: 1.5rem;
-  }
-  input[type="password"] {
-    width: 250px;
-    height: 20px;
-  }
-  .forget_password a {
-    text-decoration: none;
-    color: cornflowerblue;
-  }
-  .button button {
-    padding: 0%;
-    text-align: center;
-    width: 258px;
-    height: 30px;
-    color: white;
-    background-color: blue;
-  }
-  
+  /* text-align: center; */
+}
+.subheading {
+  /* text-align: center; */
+  color: gray;
+  padding-right: 10%;
+  font-size: 15px;
+}
+.signup {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+.emailinfo {
+  /* text-align: center; */
+  line-height: 1.5rem;
+}
+
+.email {
+  padding: 0%;
+  text-align: left;
+}
+input[type="email"] {
+  width: 250px;
+  height: 20px;
+}
+.passwordinfo {
+  text-align: left;
+  line-height: 1.5rem;
+}
+input[type="password"] {
+  width: 250px;
+  height: 20px;
+}
+.forget_password a {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+.button button {
+  padding: 0%;
+  text-align: center;
+  width: 258px;
+  height: 30px;
+  color: white;
+  background-color: blue;
+}
